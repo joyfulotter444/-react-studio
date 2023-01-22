@@ -25,7 +25,7 @@ function App() {
     <div className="App">
       <h1>My Bakery</h1> {/* TODO: personalize your bakery (if you want) */}
 
-      {bakeryData.map((item, index) => ( // TODO: map bakeryData to BakeryItem components
+      {bakeryData.map((item) => ( // TODO: map bakeryData to BakeryItem components
       <BakeryItem item={item} Click={Click} />// replace with BakeryItem component
       ))}
 
